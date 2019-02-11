@@ -1,0 +1,10 @@
+.weather-item {
+  width: 300px;
+  border: #000 solid 2px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}

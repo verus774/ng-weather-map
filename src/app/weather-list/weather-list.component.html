@@ -1,0 +1,6 @@
+<h2>Weather in {{ location | titlecase }}</h2>
+
+<app-weather-item
+  *ngFor="let weather of weathers; trackBy: trackByFn"
+  [weather]="weather"
+></app-weather-item>
